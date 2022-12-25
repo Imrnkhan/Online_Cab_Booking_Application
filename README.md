@@ -32,6 +32,32 @@ You can assume that driver is completing every ride immediately after it gets bo
     2. book_ride
         1. It will book the ride and update the position of the driver and the user to the destination given
 
+
+
+
+Tech Stack
+Java
+Spring Framework
+Spring Boot
+Spring Data JPA
+Hibernate
+MySQL
+Modules
+Login, Logout Module
+Driver Module
+Customer Module
+Admin Module
+TripBooking Module
+Features
+Customer, Driver and Admin authentication & validation with session uuid having.
+Admin Features:
+Administrator Role of the entire application
+Only registered admins with valid session token can add/update/delete driver or customer from main database
+Admin can access the details of different customers, drivers and trip bookings
+Customer Features:
+Registering themselves with application, and logging in to get the valid session token
+Viewing list of available cabs and booking a trip
+Only logged in user can access his trip history, profile updation and other features.
 User should have following fields-
 
 ### Rest API for User Resource
