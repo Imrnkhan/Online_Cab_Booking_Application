@@ -66,3 +66,65 @@ User should have following fields-
 ### Task - 4
 
 - Implement Authentication (Verifying the User credentials)
+
+
+
+
+
+Modules in Taxi Booking System
+Admin Module: This module will allow Admin to log in to the system and manage the system and its functions. Admin can View/Confirm/Cancel booking, can check payments, check the status of the trip, etc. Admin can set/update prices and charges of the taxi rides. Admin can manage the drivers and their details.
+
+Admin will be responsible for keeping a check on all the bookings done by users. Admin can View/Confirm/Cancel bookings done by users. Admin can check and manage the availability of taxis and also, keep a track of the status of all the taxis that are engaged.
+
+User Module: In this module, a user can register first using their name, contact number, consumer id, and address and also, can manage their profile. The user module will allow users to log in to the system using their names & contact number.
+
+Booking Module: In this module, users can book a taxi.
+
+Availability: In this module, Admin can check whether the taxi is available.
+
+Details of User: Details of a User like a Name, Contact Number, Address, Booking history, etc can be managed by Admin in this module.
+
+Driver Module: In this module, details related to drivers can be managed.
+
+Payment Module: All the operations related to payments can be managed in this module.
+
+Users Roles
+Two users can interact with this application 1) Admin 2) User
+
+Admin:
+
+Can Log in/Log out of the system.
+Admin can View/Edit/Delete taxis into the system.
+Admin can View/Confirm/Cancel booking done by the User.
+Can check payments done by User.
+Can check the availability of taxis and drivers.
+Can manage driver staff.
+Can change the charge.
+Can change password.
+Can manage “My Profiles”.
+User:
+
+Can Log in/Log out of the system.
+Can Manage “My profile”.
+Can search for taxis.
+Users can Book/Cancel taxis.
+Can make Payments online.
+Can change password.
+Driver:
+
+Can Log in/Log out of the system.
+Can Manage “My profile”.
+Can see bookings done by users.
+Can see user details.
+Can keep records of rides.
+Can change password.
+Flow Diagram of Taxi Booking System
+
+
+
+
+
+
+Tools and Technologies Used
+Server-side: Spring Boot.
+Back-end: MYSQL, Hibernate.
