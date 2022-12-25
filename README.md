@@ -12,7 +12,7 @@
 
 ### Formula for finding distance between two coordinates:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ff67041-3ae9-4251-bbea-bf0816b54d42/Untitled.png)
+https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ff67041-3ae9-4251-bbea-bf0816b54d42/Untitled.png)
 
 ### Assumption
 
@@ -35,22 +35,27 @@ You can assume that driver is completing every ride immediately after it gets bo
 
 
 
-Tech Stack
-Java
+Tech Stack Java
 Spring Framework
 Spring Boot
 Spring Data JPA
 Hibernate
 MySQL
+
+
 Modules
 Login, Logout Module
 Driver Module
 Customer Module
 Admin Module
 TripBooking Module
+
+
 Features
 Customer, Driver and Admin authentication & validation with session uuid having.
+
 Admin Features:
+
 Administrator Role of the entire application
 Only registered admins with valid session token can add/update/delete driver or customer from main database
 Admin can access the details of different customers, drivers and trip bookings
